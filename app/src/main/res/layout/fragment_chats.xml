@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChatsFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUsr1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_picture"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/tvUsr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person 1"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ivUsr1"
+            android:layout_marginLeft="21dp"/>
+
+        <TextView
+            android:id="@+id/tvMsg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg"
+            android:textSize="15sp"
+           android:layout_below="@id/tvUsr1"
+            android:layout_toRightOf="@id/ivUsr1"
+            android:layout_marginLeft="21dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUsr2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_picture"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/tvUsr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person 2"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ivUsr2"
+            android:layout_marginLeft="21dp"/>
+
+        <TextView
+            android:id="@+id/tvMsg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg"
+            android:textSize="15sp"
+            android:layout_below="@id/tvUsr2"
+            android:layout_toRightOf="@id/ivUsr2"
+            android:layout_marginLeft="21dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUsr3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_picture"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/tvUsr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person 3"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ivUsr3"
+            android:layout_marginLeft="21dp"/>
+
+        <TextView
+            android:id="@+id/tvMsg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg"
+            android:textSize="15sp"
+            android:layout_below="@id/tvUsr3"
+            android:layout_toRightOf="@id/ivUsr3"
+            android:layout_marginLeft="21dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUsr4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_picture"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/tvUsr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person 4"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ivUsr4"
+            android:layout_marginLeft="21dp"/>
+
+        <TextView
+            android:id="@+id/tvMsg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg"
+            android:textSize="15sp"
+            android:layout_below="@id/tvUsr4"
+            android:layout_toRightOf="@id/ivUsr4"
+            android:layout_marginLeft="21dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUsr5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_picture"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/tvUsr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person 5"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ivUsr5"
+            android:layout_marginLeft="21dp"/>
+
+        <TextView
+            android:id="@+id/tvMsg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg"
+            android:textSize="15sp"
+            android:layout_below="@id/tvUsr5"
+            android:layout_toRightOf="@id/ivUsr5"
+            android:layout_marginLeft="21dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
